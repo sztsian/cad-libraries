@@ -1,9 +1,31 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BluePill
+D STM32F103C8T6 compatible Blue Pill development board
+K BluePill stm32f103 stm32
+$ENDCMP
+#
 $CMP CH552T
 D ARM Cortex-M0 MCU, 32KB flash, 6KB RAM, 48MHz, 2-3.6V, 16 GPIO, TSSOP-20
 K ARM Cortex-M0 STM32F0 STM32F0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf
+$ENDCMP
+#
+$CMP DA14580-01AT1
+D 32k OTP, 8k SRAM QFN-40
+K Dialog DA14580 BLE
+F https://www.dialog-semiconductor.com/sites/default/files/da14580_fs_3v4.pdf
+$ENDCMP
+#
+$CMP DA14580-01AT2
+D 32k OTP, 8k SRAM QFN-40
+K Dialog DA14580 BLE
+F https://www.dialog-semiconductor.com/sites/default/files/da14580_fs_3v4.pdf
+$ENDCMP
+#
+$CMP DA14580_Pill
+D DA14580 development board
+K DA14580
 $ENDCMP
 #
 $CMP HC32F005-TSSOP20-board
@@ -11,13 +33,39 @@ D TSSOP20 board for HC32F005C6PA / STM8S103F3P6
 K TSSOP20
 $ENDCMP
 #
-$CMP STM32F0-GD32-TSSOP20-board
+$CMP Node32s
+D ESP32 Node32s development board
+K ESP32 Node32s
+$ENDCMP
+#
+$CMP NodeMCU
+D ESP8266 NodeMCU development board
+K ESP8266 NodeMCU
+$ENDCMP
+#
+$CMP RTL-00
+D RTL-00 RTL8710 802.11 b/g/n Wi-Fi Module
+K 802.11 Wi-Fi RTL-00 RTL8710
+$ENDCMP
+#
+$CMP STM32F0-TSSOP20-board
 D STM32F0 / GD32F130 TSSOP board
-K TSSOP-20 STM32F0 GD32F130
+K TSSOP-20 STM32F0 GD32F1x0
+$ENDCMP
+#
+$CMP SZ1-CC2530
+D SZ-1 CC2530 Zigbee module
+K SZ1 CC2530 Zigbee module
+$ENDCMP
+#
+$CMP TW-03
+D TW 03 Winner Micro w600 based 802.11 b/g/n Wi-Fi Module
+K 802.11 Wi-Fi TW-03 w600
+F https://docs.w600.fun/?p=product/tw-03.md
 $ENDCMP
 #
 $CMP USB_A_Stacked
-D USB Type B connector
+D USB Type A connector
 K connector USB
 F  ~
 $ENDCMP
@@ -25,6 +73,11 @@ $ENDCMP
 $CMP core51822
 D nRF51822 based core51822 module
 K nRF51822 51822 ble
+$ENDCMP
+#
+$CMP nRF52832-Breakout
+D Sparkfun nRF52832 Breakout
+K nRF52832 Sparkfun
 $ENDCMP
 #
 #End Doc Library
