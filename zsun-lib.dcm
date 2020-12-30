@@ -75,6 +75,12 @@ D nRF51822 based core51822 module
 K nRF51822 51822 ble
 $ENDCMP
 #
+$CMP nRF51822-WROOM-32
+D RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD
+K RF Radio BT ESP ESP32 Espressif onboard PCB antenna
+F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
+$ENDCMP
+#
 $CMP nRF52832-Breakout
 D Sparkfun nRF52832 Breakout
 K nRF52832 Sparkfun
